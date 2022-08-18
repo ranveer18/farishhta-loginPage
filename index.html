@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>LogIn Page</title>
+  </head>
+  <body>
+    <section class="login__section">
+      <div class="login__container">
+        <div class="form__section">
+          <div class="login__header">
+            <h1>Login</h1>
+            <p>Doesn't have an account yet? <span>Sign Up</span></p>
+          </div>
+          <div class="login__form">
+            <form action="/" method="post" class="form">
+              <div class="login__input">
+                <h3>Email Address</h3>
+                <input
+                  type="text"
+                  name="username"
+                  class="input"
+                  placeholder="you@example.com"
+                />
+              </div>
+              <div class="login__input">
+                <div class="password__div">
+                  <h3>Password</h3>
+                  <span>Forgot Password?</span>
+                </div>
+                <input
+                  type="password"
+                  name="password"
+                  class="input"
+                  placeholder="Enter 6 character or more"
+                />
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" />
+                <p>Remember me</p>
+              </div>
+              <div class="login__input">
+                <input type="submit" name="submit" class="btn" value="LogIn" />
+              </div>
+            </form>
+            <div class="login__with__container">
+              <div class="login__with">
+                <div class="line"></div>
+                <p>or login with</p>
+                <div class="line"></div>
+              </div>
+              <div class="login__button__container">
+                <div class="login__button google">
+                  <i class="fa fa-google"></i>
+                  <h3 class="google__h3">Google</h3>
+                </div>
+                <div class="login__button facebook">
+                  <i class="fa fa-facebook"></i>
+                  <h3 class="facebook__h3">facebook</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="image__section">
+          <img src="./images/undraw_designer_girl_re_h54c.svg" alt="image" />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
